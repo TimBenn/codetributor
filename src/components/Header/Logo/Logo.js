@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import styles from "../Header.css";
+
 export default class Logo extends Component {
   render() {
     return (
@@ -13,7 +15,7 @@ export default class Logo extends Component {
         >
           <g>
             <text
-              className="logo-text"
+              className={styles.logoText}
               x="40%"
               y="65%"
               fill="#fdf6e3"

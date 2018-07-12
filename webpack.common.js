@@ -26,14 +26,8 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          {
-            loader: "css-loader",
-            options: {
-              modules: true,
-              camelCase: true,
-              sourceMap: true
-            }
-          }
+          { loader: "style-loader" },
+          { loader: "css-loader" }
         ]
       }
     ]
