@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Galada|Roboto:300,400,700');
+
+.App {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: none;
+  font-family: 'Galada', cursive;
+  color: #fdf6e3;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 10px 0px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.red {
+  color:#E06C75;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}

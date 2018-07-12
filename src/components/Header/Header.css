@@ -1,0 +1,43 @@
+.header {
+    background-color: #333842;
+}
+
+.header .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px
+}
+
+.Logo svg {
+    height: 100px;
+}
+
+.Logo svg text {
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+}
+
+.Navigation ul {
+    margin: 0;
+}
+
+.Navigation ul li {
+    line-height: 90px;
+    list-style: none;
+}
+
+.Navigation ul li a {
+    color: #98C379;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 90px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.Navigation ul li a:hover {
+    color: #E06C75;
+}
